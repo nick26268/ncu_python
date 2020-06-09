@@ -6,7 +6,7 @@ for i in range( n ) :
 
     print( i+1 , end = "! = " )
     
-    val = 0
+    val = 1
     
     for j in range( i ) :
         val *= j+1
