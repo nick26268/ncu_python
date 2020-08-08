@@ -9,6 +9,7 @@ for i in range( 2*n-1 ) :
         for j in range( 2*n-1 ) :
 
             if num == n and j > 0 :
+                
                 break 
 
             if ( i+j == n-1 or i+j == 3*n-2 ) and i != n-1 :
